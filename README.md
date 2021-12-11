@@ -11,14 +11,14 @@ http://www.gnu.org/software/coreutils/
 After the lifetime has expired, the expired zfs snapshot is automatically destroyed after it's replacement created. This completes the rolling snapshot cycle. Automation can be easy to implement with a simple cron wrapper. An example is provided below.
 
 ## Man Page
-'''
-NAME
+
+  NAME
 	zfs_asm - ZFS Automatic Snapshot Manager
 
-SYNOPSIS
+  SYNOPSIS
 	zfs_asm [OPTION]... [ZFS_NAME]...
 
-DESCRIPTION
+  DESCRIPTION
 	Automatically create rolling snaphots for all (or any) specified ZFS
 	filesystem which have a specified maximum expiration lifetime.
 	This lifetime is expressed in a simple and natural way; 1hour, 6day,
@@ -31,7 +31,7 @@ DESCRIPTION
 	the tag on the specified (or all) ZFS are automatically destroyed.
 	The default operation can be modified using the following options:
 
-OPTIONS
+  OPTIONS
 	-l
 	   List mode: Just report on managed snapshots
 
