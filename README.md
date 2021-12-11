@@ -97,4 +97,4 @@ Here, we can see the new snapshot created (13-Mar)  and observe the expired snap
           DR/backup/kungfu@_D_:1332284791 06-Mar-12 18:06 20-Mar-12 19:06:31
           DR/backup/kungfu@_D_:1331750917 13-Mar-12 14:48 14-Mar-12 14:48:37
 
- Want to automate it? Put it in cron.hourly||cron.daily with a wrapper and edit it to your liking.
+ Want to automate it? Put it in cron.hourly||cron.daily with th cron_zfs_snapper.sh and edit it to your liking.
